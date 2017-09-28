@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+h1, input, label, p {
+    font-family: 'Open Sans', sans-serif;
+}
+.header-contents {
+    background-color: #cdffff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.header-contents h1, .header-contents input {
+    margin: 0;
+    margin-bottom: 15px;
+}
+.header-contents input {
+    height: 2em;
+    border-radius: 5px;
+    border-style: none;
+}
+.header-contents input:focus {
+    outline: none;
+}
+.gallery-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    margin: 0 8%;
+}
+.gallery-layout img {
+    width: 30%;
+    height: 30%;
+    margin: 1%;
+}
+.gallery-layout img:hover {
+    transform: scale(1.5);
+    transition: .5s;
+}
