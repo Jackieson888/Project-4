@@ -24,15 +24,15 @@ h1, input, label, p {
 .gallery-layout {
     display: flex;
     flex-wrap: wrap;
-    align-content:space-between;
+    justify-content:space-around;
     margin: 0 8%;
 }
-.gallery-layout img {
+.gallery-layout a {
     width: 30%;
-    height: 30%;
+    height: auto;
     margin: 1%;
 }
-.gallery-layout img:hover {
-    transform: scale(1.5);
+.gallery-layout a img:hover {
+    transform: scale(1.25);
     transition: .5s;
 }
