@@ -1,7 +1,7 @@
 body {
     margin: 0;
 }
-h1, input, label, p {
+h1, input, label, p, span {
     font-family: 'Open Sans', sans-serif;
 }
 .header-contents {
@@ -24,13 +24,11 @@ h1, input, label, p {
 .gallery-layout {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
-    margin: 0 8%;
+    justify-content:center;
+    margin: 0 10%;
 }
 .gallery-layout a {
-    width: 30%;
-    height: auto;
-    margin: 1%;
+    margin: 2%;
 }
 .gallery-layout a img:hover {
     transform: scale(1.25);
