@@ -39,8 +39,24 @@ ul {
 }
 li {
     display: inline-block;
-    width: auto;
+    width: 40vw;
+    height: auto;
+    padding: 1%;
+}
+a img {
+    width: 40vw;
+}
+
+@media (min-width: 768px ) {
+    li, a img{
+        width: 30vw;
+    }
 }
 @media (min-width: 1024px ) {
-
+    .lb-data .lb-details {
+        width: 600px;
+    }
+    li, a img {
+        width: 20vw;
+    }
 }
